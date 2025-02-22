@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  line-height: 2em;
+  background-color: #ededed;
+}
+h1, h2 {
+  color: blue;
+  border-bottom: 1px solid #929ca4;
+  width: 100%;
+}
+p:first-of-type::first-letter {
+  font-size: 30px; 
+}
+.features::first-line {
+  color: #cc1c0d;
+  font-weight: bold;
+}
+#testimonial1, #testimonial2 {
+  font-style: italic;
+  margin: 50px;
+}
+a[href="https://mittens.com"] {
+  color: green;
+  text-decoration: none;
+}
+a[href="https://mittens.com"]:hover {
+  color: blueviolet;
+  text-decoration: underline;
+}
+ul li {
+  list-style-type: none;
+}
+ul li:first-of-type {
+  color: blue;
+}
+ul li:last-of-type {
+  color: red;
+}
