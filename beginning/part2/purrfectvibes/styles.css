@@ -36,6 +36,7 @@ h2 {
 a {
   color: #b3679b;
 }
+/* homepage features container */
 .features {
   width: 33%;
   border: 2px solid #222e50;
@@ -48,14 +49,20 @@ span {
   font-weight: bold;
   text-align: center;
 }
-table tr:nth-child(odd) td:first-child{
+/* about us team table */
+table tr:nth-child(odd) td:first-child {
   background-color: #f2f2f2;
   padding: 20px;
 }
+table tr:nth-child(odd) td:last-child {
+  padding: 20px;
+}
+/* features page */
 div p:first-of-type {
   font-weight: bold;
   text-align: center;
 }
+/* features container grey background */
 .feature-container {
   background-color: #efefef;
   border-radius: 15px;
@@ -72,6 +79,7 @@ a[href="#top"] {
   text-align: right;
   display: block;
 }
+/* community page */
 .event1, .event2, .event3 {
   width: 50%;
   border: 2px solid #222e50;
@@ -80,6 +88,7 @@ a[href="#top"] {
   margin: 10px;
   text-align: center;
 }
+/* colored divider line w/in events */
 .event1 h3::before {
   content: '';
   display: block;
@@ -101,6 +110,21 @@ a[href="#top"] {
   background-color: #b36793;
   margin: 20px 0;
 }
-.event1, .event2, .event3 h3 {
-  font-weight: bolder;
+.event1 p::first-line {
+  font-weight: bold;
+}
+.event1 p:nth-child(3) {
+  font-weight: normal;
+}
+.event2 p::first-line {
+  font-weight: bold;
+}
+.event2 p:nth-child(3) {
+  font-weight: normal;
+}
+.event3 p::first-line {
+  font-weight: bold;
+}
+.event3 p:nth-child(3) {
+  font-weight: normal;
 }
